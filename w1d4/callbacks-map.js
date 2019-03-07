@@ -8,17 +8,17 @@ var map = function(array, funct) {
 return (newArray);
 };
 
-map(words, function(word) {
+var result1 = map(words, function(word) {
   return word.length;
 });
-//console.log(newArray);
+console.log(result1);
 
-map(words, function(word) {
+var result2 = map(words, function(word) {
   return word.toUpperCase();
 });
-console.log(newArray);
+console.log(result2);
 
-map(words, function(word) {
+var result3 = map(words, function(word) {
   return word.split('').reverse().join('');
 });
-console.log(newArray);
+console.log(result3);
